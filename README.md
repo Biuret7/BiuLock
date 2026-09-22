@@ -1,34 +1,81 @@
-# BiuLock
+<div align="center">
 
-> Public portfolio record — project source code, program screenshots, binaries, vault formats, trust workflows, and security-sensitive implementation details are intentionally not published here.
+# 🔐 BiuLock
 
-BiuLock is a privacy-focused vault for organizing sensitive personal data with local control, recovery, and companion access in mind. The project explores how a secure personal workspace can remain practical without treating security as an invisible detail.
+### Secure. Local. Encrypted.
 
-[View the case study on biuret.dev](https://biuret.dev/sites/biulock.html)
+A security-focused password manager built with **Python & PyQt6** for securely managing credentials in an encrypted local vault.
 
-## Project snapshot
+<br>
 
-| | |
-| --- | --- |
-| Status | In development |
-| Focus | Local-first privacy and secure organization |
-| Platforms | Desktop and companion mobile experience |
-| Last updated | September 2026 |
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyQt6](https://img.shields.io/badge/PyQt6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Security](https://img.shields.io/badge/Focus-Security-purple?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
-## Selected highlights
+</div>
 
-- **Organized private vault** — brings important personal records into one focused workspace.
-- **Companion access** — explores deliberate continuity between desktop and mobile experiences.
-- **Recovery-aware design** — treats backup and recovery as core product experiences.
+---
 
-## What this project demonstrates
+## 🛡️ About BiuLock
 
-BiuLock reflects ongoing practice in local-first product design, privacy-aware UX, secure state management, backup and recovery thinking, and cross-device workflows. Internal cryptographic design, storage formats, and trust mechanisms are intentionally omitted from this public summary.
+**BiuLock** is a desktop password manager designed with security and privacy in mind.
 
-## Project status
+It provides an encrypted local vault for storing and managing credentials through a modern desktop interface. Access to the vault is protected through authentication, ensuring that stored credentials are only decrypted after successful login.
 
-BiuLock is under active development and is presented here as a portfolio case study. This repository does not provide a download or claim that the software has completed independent security auditing.
+The project was built as part of my journey in **cybersecurity and secure software development**, combining practical security concepts with Python application development.
 
-## About
+---
 
-Created by [Adam Hamdan (Biuret)](https://github.com/Biuret7). Explore the complete portfolio at [biuret.dev](https://biuret.dev/) or contact Adam at [biuret956@gmail.com](mailto:biuret956@gmail.com).
+## ✨ Features
+
+- 🔐 Encrypted credential storage
+- 🖥️ Modern desktop interface
+- 🔑 Protected vault authentication
+- 📂 Local credential storage
+- 🔍 Search and organize saved credentials
+- 📋 Quick credential copying
+- ⏱️ Automatic vault locking
+- 🔒 Vault decryption only after successful authentication
+- 👤 Integration with Biuret Academy authentication
+- ⏳ Subscription validation
+
+---
+
+## 🔒 Security
+
+BiuLock is designed around several security principles:
+
+- Credentials are stored in an **encrypted format**
+- Vault data remains encrypted while locked
+- Decryption occurs only after successful authentication
+- Sensitive data is stored locally
+- Automatic locking helps protect unattended sessions
+
+> **Note:** BiuLock is an educational cybersecurity project and is under active development. It should not be considered a replacement for professionally audited password managers.
+
+---
+
+## 🛠️ Built With
+
+- **Python** — Core application logic
+- **PyQt6** — Desktop graphical interface
+- **Cryptography** — Encryption and security operations
+
+---
+
+## 🚧 Project Status
+
+BiuLock is currently under development.
+
+New security improvements, features, and interface enhancements may be added as the project evolves.
+
+---
+
+<div align="center">
+
+### 🛡️ Built with security in mind.
+
+**Developed by [Adam Hamdan](https://github.com/Biuret7)**
+
+</div>
